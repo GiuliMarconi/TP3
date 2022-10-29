@@ -1,0 +1,290 @@
+main{
+    background-color: #D9D9D9;
+    position:static;
+}
+
+.section {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*Sobre Nosotros*/
+.nos {
+    color: #372948;
+    font-size: 50px;
+    position: absolute;
+    height: 20em;
+    left: 9.2em;
+    top: 3.5em;
+    z-index: 10;
+}
+
+#historia {
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 60vh;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    width: 54em;
+    height: 10em;
+    left: 11em;
+    top: 16em;
+    background-color: rgba(0,0,0, .5);
+    color: #fff;
+    padding: 25px 25px;
+    border-radius: 18px;
+}
+
+/*Productos*/
+
+#productos{
+    background-color: #898989;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 116vh;
+    position: relative;
+    height: 0em;
+    left: 0em;
+    top: 11em;
+    z-index: 10;
+}
+.productos {
+    color: #372948;
+    font-size: 50px;
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    left: 10.5em;
+    top: 1em;
+    z-index: 10;
+}
+
+main .imgagenda {
+    position: absolute;
+    width: 19em;
+    height: 32em;
+    left: 0.25em;
+    top: 9em;
+}
+
+main .imgpizarra {
+    position: absolute;
+    width: 19em;
+    height: 32em;
+    left: 19.25em;
+    top: 9em;
+}
+
+main .imgutiles {
+    position: absolute;
+    width: 19em;
+    height: 32em;
+    left: 38.25em;
+    top: 9em;
+}
+
+main .imgplanners {
+    position: absolute;
+    width: 19em;
+    height: 32em;
+    left: 57.25em;
+    top: 9em;
+}
+
+/*atajos*/
+
+main div {
+    background-color:#aaaaaa;
+    padding: 5px 0px;
+    position: absolute;
+    width: 76.5em;
+    height: 4em;
+    left: 0em;
+    top: 38em;
+}
+
+main div ul{
+    list-style-type: none;
+}
+
+main div ul li {
+    color: black;
+    font-family: "lobster two";
+    font-size: 2.2em;
+    font-style: normal;
+    float: left;
+    text-align:justify;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding: 0.4em 2.605em;
+    list-style: none;
+    transition: background-color 0.2;
+    cursor:pointer;
+    display:inline-flex;
+}
+
+main div ul li:hover {
+    color:#ffffff;
+}
+
+/*Detail Products*/
+
+#producto1 {
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 106vh;
+    position: relative;
+}
+
+.imgP1 {    
+    position: absolute;
+    width: 18em;
+    height: 20em;
+    left: 7em;
+    top: 20em;
+}
+.description {
+    position: absolute;
+    width: 40em;
+    height: 35.8em;
+    left: 33.1em;
+    top: 11em;
+    background-color: rgba(0,0,0, .5);
+    padding: 25px 25px;
+}
+
+.title {
+    text-align: center;
+    color:#D9D9D9;
+    font-style: oblique;
+}
+
+.textdesc {
+    text-align: justify;
+    padding: 5em;
+}
+.botonPago {
+    position: absolute;
+    width: 40em;
+    height: 10.2em;
+    left: 33.1em;
+    top: 36.75em;
+    background-color: #FFCACA;
+    padding: 25px 25px;
+}
+
+.carrito {
+    position: absolute;
+    padding: 5px 10px; 
+    border: 1;
+    border-color: #4b3566;
+    border-radius: 32px;
+    line-height: 1.5;
+    font-size: 1.5em;
+    left: 18em;
+    top: 2em;
+    color: #372948;
+    background-color: #D9D9D9;
+    text-align: center;
+    transition: background-color 0.2;
+    cursor:pointer;
+    display:inline-flex;
+}
+
+.carrito:hover {
+    text-shadow: 2px 2px 2px #f99d9d;
+}
+
+.compra {
+    position: absolute;
+    padding: 5px 10px; 
+    border: 1;
+    border-color: #4b3566;
+    border-radius: 32px;
+    line-height: 1.5;
+    font-size: 1.5em;
+    left: 20em;
+    top: 5em;
+    color: #372948;
+    background-color: #D9D9D9;
+    text-align: center;
+    transition: background-color 0.2;
+    cursor:pointer;
+    display:inline-flex;
+}
+
+.compra:hover {
+    text-shadow: 2px 2px 2px #f99d9d;
+}
+
+.cantidad {
+    size: 1.5em;
+    font-family: "Raleway";
+}
+/*Medios de pago*/
+
+#pago{
+    background-color:#898989;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 70vh;
+    position: relative;
+    height: 5em;
+    left: 0em;
+    top: 11em;
+    z-index: 10;
+}
+
+.pago {
+    color: #372948;
+    font-size: 50px;
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    left: 9em;
+    top: 1em;
+    z-index: 10;
+}
+
+
+.mc {
+    position: absolute;
+    width: 5em;
+    height: 4em;
+    left: 29em;
+    top: 158px;
+    z-index: 10;
+}
+
+.visa {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    left: 37.5em;
+    top: 150px;
+    z-index: 10;
+}
+
+.mp {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    left: 45.5em;
+    top: 150px;
+    z-index: 10;
+}
