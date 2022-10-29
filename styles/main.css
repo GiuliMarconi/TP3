@@ -115,7 +115,7 @@ main div {
 }
 
 main div ul{
-    list-style-type: none;
+    list-style-type:circle;
 }
 
 main div ul li {
@@ -282,9 +282,173 @@ main div ul li:hover {
 
 .mp {
     position: absolute;
-    width: 5em;
-    height: 5em;
-    left: 45.5em;
-    top: 150px;
+    width: 7em;
+    height: 7em;
+    left: 45em;
+    top: 143px;
     z-index: 10;
+}
+
+@media screen and (max-width: 851px) {
+   
+    .nos {
+        font-size: 30px;
+        left: 3em;
+        top: 8.5em;
+    }
+    
+    #historia {
+        min-height: 55vh;
+    }
+    
+    .text {
+        width: 15em;
+        height: 15em;
+        left: 3.5em;
+        top: 19em;
+        padding: 20px 20px;
+    }
+    
+    /*Productos*/
+    
+    #productos{
+        min-height: 210vh;
+    }
+    .productos {
+        font-size: 30px;
+        width: 20em;
+        height: 20em;
+        left: 4em;
+        top: 1em;
+    }
+    
+    main .imgagenda {
+        width: 24.6em;
+        height: 20em;
+        left: 0em;
+        top: 20em;
+    }
+    
+    main .imgpizarra {
+        width: 24.6em;
+        height: 25em;
+        left: 0em;
+        top: 40.5em;
+    }
+    
+    main .imgutiles {
+        width: 24.6em;
+        height: 20em;
+        left: 0em;
+        top: 66em;
+    }
+    
+    main .imgplanners {
+        width: 24.6em;
+        height: 20em;
+        left: 0em;
+        top: 86.5em;
+    }
+    
+    /*atajos*/
+    
+    main div {
+        width: 24.4em;
+        height: 15em;
+        top: 5em;
+    }
+    
+    main div ul li {
+        color: black;
+        font-family: "lobster two";
+        font-size: 2em;
+        width: 5em;
+        height: 1;
+        left: 2em;
+    }
+    
+    main div ul li:hover {
+        color:#ffffff;
+    }
+    
+    /*Detail Products*/
+    
+    #producto1 {
+        flex-direction: row;
+        min-height: 130vh;
+    }
+    
+    .imgP1 {    
+        width: 18em;
+        height: 20em;
+        left: 3.2em;
+        top: 15em;
+    }
+    .description {
+        width: 21.5em;
+        height: 20em;
+        left: 0em;
+        top: 38em;
+    }
+
+    .textdesc {
+        text-align: justify;
+        padding: 1em;
+    }
+
+    .botonPago {
+        width: 21.6em;
+        height: 17em;
+        left: 0em;
+        top:60em;
+    }
+    
+    .carrito {
+        font-size: 1em;
+        left: 8em;
+        top: 13em;
+    }
+    
+    .carrito:hover {
+        text-shadow: 2px 2px 2px #f99d9d;
+    }
+    
+    .compra {
+        font-size: 1em;
+        left: 10em;
+        top: 16em;
+    }
+    
+    /*Medios de pago*/
+    
+    #pago{
+        min-height: 20vh;
+    }
+    
+    .pago {
+        font-size: 30px;
+        left: 3em;
+    }
+    
+    
+    .mc {
+        width: 3em;
+        height: 2em;
+        left: 7em;
+        top: 6em;
+    }
+    
+    .visa {
+        width: 3em;
+        height: 3em;
+        left: 11em;
+        top: 5.5em;
+    }
+    
+    .mp {
+        width: 4em;
+        height: 4em;
+        left: 14.2em;
+        top: 5.2em;
+    } 
 }

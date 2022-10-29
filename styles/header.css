@@ -15,7 +15,6 @@ header {
 }
 
 header nav ul li img{
-    height: 10em;
     border-radius: 180%;
     position: absolute;
     width: 8em;
@@ -49,7 +48,6 @@ header nav ul li:hover {
 
 
 header nav ul li .imgbuy{
-    height: 2em;
     border-radius: 180%;
     position: absolute;
     width: 3em;
@@ -59,11 +57,47 @@ header nav ul li .imgbuy{
 }
 
 header nav ul li .imguser{
-    height: 2em;
     border-radius: 180%;
     position: absolute;
     width: 3em;
     height: 3em;
     left: 60em;
     top: .8em;
+}
+
+@media screen and (max-width:851px) {
+    header {
+        display: flex;
+        flex-direction:inherit;
+        justify-content: flex-start;
+        width: 20.5em;
+        left: 0em;
+        top: 9em;
+    }
+    header nav ul li img{
+        left: 8em;
+        top:-9em;
+    }
+    
+    header nav ul li {
+        float: none;
+    }
+    header nav ul li a{
+        font-size: 0.8em;
+
+    }
+    
+    header nav ul li .imgbuy{
+        width: 2em;
+        height: 2em;
+        left: 18em;
+        top: 1.3em;
+    }
+    
+    header nav ul li .imguser{
+        width: 2em;
+        height: 2em;
+        left: 21em;
+        top: 1.3em;
+    }
 }
