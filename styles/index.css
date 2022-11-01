@@ -6,4 +6,5 @@
 body {
     font-family: "raleway", "lobster";
     background-color: #D9D9D9;
+    overflow-x: hidden;
 }
