@@ -1,0 +1,264 @@
+main{
+    background-color: #D9D9D9;
+    position:static;
+}
+
+.section {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 200vh;
+}
+
+
+/*Productos*/
+
+#productos{
+    background-color: #898989;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 116vh;
+    overflow: hidden;
+    position: relative;
+    top: 11em;
+    z-index: 10;
+}
+.productos {
+    color: #372948;
+    font-size: 50px;
+    position: absolute;
+    left: 10.5em;
+    top: 1em;
+    z-index: 10;
+}
+
+main .imgagenda {
+    position: absolute;
+    width: 19em;
+    height: 32em;
+    left: 0.25em;
+    top: 9em;
+}
+
+main .imgpizarra {
+    position: absolute;
+    width: 19em;
+    height: 32em;
+    left: 19.25em;
+    top: 9em;
+}
+
+main .imgutiles {
+    position: absolute;
+    width: 19em;
+    height: 32em;
+    left: 38.25em;
+    top: 9em;
+}
+
+main .imgplanners {
+    position: absolute;
+    width: 19em;
+    height: 32em;
+    left: 57.25em;
+    top: 9em;
+}
+
+/*atajos*/
+
+main div {
+    background-color:#aaaaaa;
+    padding: 5px 0px;
+    position: absolute;
+    width: 76.5em;
+    height: 4em;
+    left: 0em;
+    top: 38em;
+}
+
+main div ul{
+    list-style-type:circle;
+}
+
+main div ul li {
+    color: black;
+    font-family: "lobster two";
+    font-size: 2.2em;
+    font-style: normal;
+    float: left;
+    text-align:justify;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding: 0.4em 2.605em;
+    list-style: none;
+    transition: background-color 0.2;
+    cursor:pointer;
+    display:inline-flex;
+}
+
+main div ul li:hover {
+    color:#ffffff;
+}
+
+
+
+/*Medios de pago*/
+
+#pago{
+    background-color:#898989;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 80vh;
+    position: relative;
+    height: 3em;
+    left: 0em;
+    top: 11em;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.pago {
+    color: #372948;
+    font-size: 3em;
+    position: absolute;
+    left: 9em;
+    margin-top: 1em;
+    z-index: 10;
+}
+
+
+.mc {
+    position: absolute;
+    width: 5em;
+    height: 4em;
+    left: 29em;
+    top: 158px;
+    z-index: 10;
+}
+
+.visa {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    left: 37.5em;
+    top: 150px;
+    z-index: 10;
+}
+
+.mp {
+    position: absolute;
+    width: 7em;
+    height: 7em;
+    left: 45em;
+    top: 143px;
+    z-index: 10;
+}
+
+@media screen and (max-width: 767px) {
+    .section {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 33em;
+    }
+    
+    /*Productos*/
+    
+    #productos{
+        min-height: 340vh;
+        min-width: auto;
+    }
+    .productos {
+        font-size: 40px;
+        left: 3em;
+        top: 0.5em;
+    }
+    
+    main .imgagenda {
+        width: 28em;
+        height: 25em;
+        left: 0em;
+        top: 21em;
+    }
+    
+    main .imgpizarra {
+        width: 28em;
+        height: 25em;
+        left: 0em;
+        top: 46.5em;
+    }
+    
+    main .imgutiles {
+        width: 28em;
+        height: 25em;
+        left: 0em;
+        top: 72em;
+    }
+    
+    main .imgplanners {
+        width: 28em;
+        height: 25em;
+        left: 0em;
+        top: 97.5em;
+    }
+    
+    /*atajos*/
+    
+    main div {
+        width: auto;
+        height: 15em;
+        top: 5em;
+    }
+    
+    main div ul li {
+        color: black;
+        font-family: "lobster two";
+        font-size: 2em;
+        cursor:none;
+    }
+    
+    main div ul li:hover {
+        color:#ffffff;
+    }
+
+    
+    /*Medios de pago*/
+    
+    #pago{
+        min-height: 70vh;
+    }
+    
+    .pago {
+        font-size: 2.5em;
+        left: 1.5em;
+    }
+    
+    .mc {
+        width: 3em;
+        height: 2em;
+        left: 7em;
+        top: 8em;
+    }
+    
+    .visa {
+        width: 3em;
+        height: 3em;
+        left: 11.5em;
+        top: 7.5em;
+    }
+    
+    .mp {
+        width: 4em;
+        height: 4em;
+        left: 15em;
+        top: 7.2em;
+    } 
+}

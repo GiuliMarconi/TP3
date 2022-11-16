@@ -1,0 +1,60 @@
+main{
+    background-color: #D9D9D9;
+    position:relative;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.nos {
+    color: #372948;
+    font-size: 50px;
+    position: absolute;
+    top: 1em;
+    z-index: 10;
+    overflow: hidden;
+}
+
+#historia {
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 90vh;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 8em;
+    height: 15em;
+    width: 20em;
+    background-color: rgba(0,0,0, .5);
+    color: #fff;
+    padding: 25px 25px;
+    border-radius: 18px;
+}
+
+@media screen and (max-width: 851px) {
+   
+    .nos {
+        font-size: 40px;
+        top: 5em;
+    }
+    
+    #historia {
+        min-height: 120vh;
+    }
+    
+    .text {
+        width: 15em;
+        height: 15em;
+        top: 17em;
+        padding: 20px 20px;
+    }
+}

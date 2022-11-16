@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP3</title>
-    <link rel="stylesheet" href="/styles/index.css"/>
-    <link rel="stylesheet" href="/styles/main/ppal.css"/>
+    <title>Detail Product</title>
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/main/detailProduct.css" />
     <link rel="stylesheet" href="/styles/footer.css"/>
-    <link rel="stylesheet" href="/styles/header.css"/>
-    <link href="http://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -36,40 +35,40 @@
             </ul> 
        </nav>
     </header>
+
     <main>
-
-        <section class="section" id="productos">
-            <h1 class="productos">Productos</h1>
-           
-            <img class="imgagenda" src="https://i.postimg.cc/rwpk4ZmX/agenda-2021-interior-6-planner-mensual.jpg">
-            <img class="imgpizarra" src="https://i.postimg.cc/Y21GD0x2/pz-3060w-sl1-e26c38cd6e0d28e32416416561696969-1024-1024.jpg">
-            <img class="imgutiles"src="https://i.postimg.cc/R05xYSd9/c77b05aa76d2ac58b3d2d806317ee009.jpg"> 
-            <img class="imgplanners"src="https://i.postimg.cc/fbcQnGqd/interior-semanal11-9b35d6b058d55ade4816158402128172-1024-1024.png">
-            
-            <div>
-                <ul>
-                    <li>   
-                        Agendas
-                    </li>
-                    <li>   
-                        Pizarras
-                    </li>
-                    <li>   
-                        Útilería 
-                    </li>
-                    <li >  
-                        Planners
-                    </li>
-                </ul>
+        <section class="section" id="producto1">
+            <img class="imgP1" src="https://i.postimg.cc/HxQtXkp3/998184.jpg">
+            <div class="description">
+                <article>
+                    <p>
+                        <br><br><br><br>
+                        <h2 class="title">Producto 1</h2>
+                        <br>
+                        <h1 class="subtitle">Descripción:</h1>
+                        <h4 class="textdesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere vero accusamus necessitatibus! Quibusdam atque excepturi fuga odit delectus. Sapiente reiciendis quia sint iure et, fugit ullam voluptas illum facere iste.</h4>
+                    </p>
+                </article>
             </div>
-        </section>
-    
+            <div class="botonPago">
+                <article>
+                    <h1>Precio:</h1>
+                    <br><br>
+                    <h2>$</h2>
+                    <button class="carrito">
+                        Agregar al carrito
+                    </button>
+                    <br>
+                    <button class="compra">
+                        Comprar
+                    </button>
+                </article>
+                <br>
+                <label for="cant">Cantidad: (1-1000):
+                    <input type="number" id="cantidad" name="Cantidad" min="1" max="1000">
+                </label>
+            </div>
 
-        <section class="section" id="pago">
-            <h1 class="pago">Medios de Pago</h1>
-            <img class="mc" src="https://i.postimg.cc/68Tgw93J/58482354cef1014c0b5e49c0-2.png">
-            <img class="visa" src="https://i.postimg.cc/f31h1Vjr/icons8-visa-48.png">
-            <img class="mp" src="https://i.postimg.cc/6pWpCWXc/icon-256x256.png">
         </section>
     </main>
 
@@ -91,5 +90,6 @@
         <br>
         <h2>Copyright 2022</h2>
     </footer>
+
 </body>
 </html>

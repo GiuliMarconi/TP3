@@ -1,17 +1,14 @@
 header {
     background-color:#372948;
-    padding: 16px 32px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    position: relative;
     align-items: center;
-    position: absolute;
-    width: 62em;
-    height: 3em;
-    left: 10.5em;
-    top: 3em;
+    min-width: 65vh;
+    min-height: 10vh;
     z-index: 10;
-    margin: 0;
+    margin-top: 3em;
 }
 
 header nav ul li img{
@@ -19,8 +16,8 @@ header nav ul li img{
     position: absolute;
     width: 8em;
     height: 8em;
-    left: -8.4em;
-    top: -1.8em;
+    top: -2.5em;
+    left: 1em;
 }
 
 header nav ul{
@@ -36,7 +33,6 @@ header nav ul li a{
     font-style: normal;
     text-align:justify;
     margin-right: 1em;
-    padding: 0.7em 0.5em;
     list-style: none;
     transition: background-color 0.2s ease-in-out;
     cursor: pointer;
@@ -50,54 +46,52 @@ header nav ul li:hover {
 header nav ul li .imgbuy{
     border-radius: 180%;
     position: absolute;
-    width: 3em;
-    height: 3em;
-    left: 56em;
-    top: 0.8em;
+    width: 2.7em;
+    height: 2.7em;
+    left: 68em;
+    top: .3em;
 }
 
 header nav ul li .imguser{
     border-radius: 180%;
     position: absolute;
-    width: 3em;
-    height: 3em;
-    left: 60em;
-    top: .8em;
+    width: 2.5em;
+    height: 2.5em;
+    left: 72em;
+    top: .4em;
 }
 
-@media screen and (max-width:851px) {
+@media screen and (max-width:767px) {
     header {
         display: flex;
         flex-direction:inherit;
         justify-content: flex-start;
-        width: 20.5em;
-        left: 0em;
-        top: 9em;
+        min-height: 10vh;
     }
     header nav ul li img{
-        left: 8em;
-        top:-9em;
+        left: 9em;
+        top:4em;
     }
     
     header nav ul li {
-        float: none;
+        float: left;
     }
     header nav ul li a{
         font-size: 0.8em;
-
+        margin-left: 0.5em;
     }
     
     header nav ul li .imgbuy{
         width: 2em;
         height: 2em;
-        left: 18em;
-        top: 1.3em;
+        left: 22em;
+        top: 0.6em;
     }
     
     header nav ul li .imguser{
         width: 2em;
         height: 2em;
-        left: 21em;
-        top: 1.3em;
+        left: 24.5em;
+        top: 0.6em;
     }
 }
